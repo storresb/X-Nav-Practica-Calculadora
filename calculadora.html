@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora SPA</title>
+	<link rel="stylesheet" type="text/css" href="calculadora.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+<div class="calculadora" align="center">
+<form action="#" name="calculadora" id="calculadora">
+		<div class="display"><input type="text" id="display" size="12">
+	<div class="keys">
+	<p>
+	<input type="button" class="button" id = "limpiar" name = "limpiar" value="AC" onclick='c("")'>
+	<input type="button" class="button" id = "(" name = "(" value="(" onclick='math("(")'>
+	<input type="button" class="button" id = ")" name = ")" value=")" onclick='math(")")'>
+	<input type="button" class="button" id = "/" name = "/" value="/" onclick='math("/")'>
+	</p>
+	<p>
+	<input type="button" class="button" id = "porcentaje" name = "porcentaje" value="%" onclick='porcent()'/>
+	<input type="button" class="button" id = "opuesto" name = "opuesto" value="+/-" onclick='opuest()'/>
+	<input type="button" class="button" id = "inverso" name = "inverso" value="1/x" onclick='inve()'/>
+	<input type="button" class="button" id = "raiz" name = "raiz" value="&#8730;" onclick='raizc()'/>
+	</p>
+	<p>
+	<input type="button" class="button" id = "7" name = "7" value="7" onclick='math("7")'>
+	<input type="button" class="button" id = "8" name = "8" value="8" onclick='math("8")'>
+	<input type="button" class="button" id = "9" name = "9" value="9" onclick='math("9")'>
+	<input type="button" class="button" id = "mul" name = "mul" value="*" onclick='math("*")'>
+
+	</p>
+	<p>
+	<input type="button" class="button" id = "4" name = "4" value="4" onclick='math("4")'>
+	<input type="button" class="button" id = "5" name = "5" value="5" onclick='math("5")'>
+	<input type="button" class="button" id = "6" name = "6" value="6" onclick='math("6")'>
+	<input type="button" class="button" id = "res" name = "res" value="-" onclick='math("-")'>
+	</p>
+	<p>
+	<input type="button" class="button" id = "1" name = "1" value="1" onclick='math("1")'>
+	<input type="button" class="button" id = "2" name = "2" value="2" onclick='math("2")'>
+	<input type="button" class="button" id = "3" name = "3" value="3" onclick='math("3")'>
+	<input type="button" class="button" id = "sum" name = "sum" value="+" onclick='math("+")'>
+	</p>
+	<p>
+	<input type="button" size = "" class="button" id = "0" name = "0" value="0" onclick='math("0")'>
+	<input type="button" class="button" id = "punto" name = "punto" value="." onclick='math(".")'>
+	<input type="button" class="button" id = "calcular" name = "calcular" value="=" onclick='e("+")'>
+	<input type="button" class="button" id = "cuadrado" name = "cuadrado" value="x&#178;" onclick='cua()'/>
+	</p>
+	<input type="hidden" id="numero1" name="numero1" value="">
+	<input type="hidden" id="numero2" name="numero2" value="">
+	<input type="hidden" id="action" name="action" value="">
+	</div>
+	</div>
+	</div>
+	</form>
+</body>
+</html>
+<script type="text/javascript" src="calculadora.js"></script>
