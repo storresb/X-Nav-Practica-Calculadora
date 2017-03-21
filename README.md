@@ -7,4 +7,4 @@ Esta práctica consistirá en la creación de una calculadora que funcione como 
 
 
 
-[try me](https://storresb.github.io/X-Nav-Practica-Calculadora/)
+[try me](https://storresb.github.io/X-Nav-Practica-Calculadora/calculadora.html)
